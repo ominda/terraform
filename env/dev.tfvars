@@ -1,0 +1,6 @@
+v_region = "us-east-2"
+v_vpc_default_cidr = "10.0.0.0/16"
+v_environment = "Dev"
+v_owner = "Terraform"
+v_status = "This resources created from Terraform, Can deleted"
+v_vpc_name = "Dev_VPC"

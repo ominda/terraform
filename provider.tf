@@ -8,13 +8,13 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-2"
+  region = var.v_region
 
   default_tags {
     tags = {
-      Environment = "Dev"
-      Owner       = "Terraform"
-      Status      = "Can Deleted"
+      Environment = var.v_environment
+      Owner       = var.v_owner
+      Status      = var.v_status
     }
   }
 }

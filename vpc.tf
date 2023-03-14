@@ -1,3 +1,6 @@
 resource "aws_vpc" "r_terraform_vpc" {
-  cidr_block = "10.0.0.0/16"
+  cidr_block = var.v_vpc_default_cidr
+  tags = {
+    "Name" = var.v_vpc_name
+  }
 }
