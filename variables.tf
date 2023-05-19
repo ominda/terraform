@@ -18,7 +18,6 @@ variable "v_owner" {
 }
 
 variable "v_status" {
-    type = string
     description = "This resources created from Terraform, Can deleted"
   
 }
@@ -27,4 +26,9 @@ variable "v_vpc_name" {
     type = string
     description = "VPC name"
   
+}
+
+variable "v_sg_web_port" {
+    type = number
+    default = 80  
 }

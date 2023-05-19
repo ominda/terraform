@@ -1,4 +1,4 @@
-v_region = "us-east-1"
+v_region = "us-east-2"
 v_vpc_default_cidr = "10.10.0.0/16"
 v_environment = "Prod"
 v_owner = "Terraform"
